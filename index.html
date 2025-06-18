@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <title>Music Player</title>
+</head>
+<body>
+    <audio src="music/EdSheeran-ShapeofYou.mp3" id="audio"></audio>
+    <div class="music__player">
+        <div class="music__details">
+            <img src="music/Shape_Of_You.png" alt="bg">
+            <div class="music_name">
+                <p>Shape of You</p>
+                <span style="color: #fff; font-size: .8rem;">-Ed Shereen</span>
+            </div>
+        </div>
+        <div class="music__controls">
+            <button onclick="playAudio()">Play <i class="fa-solid fa-play"></i></button>
+            <button onclick="pauseAudio()">Pause <i class="fa-solid fa-pause"></i></button>
+            <button onclick="stopAudio()">Rewind <i class="fa-solid fa-backward"></i></button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2df5e1a210.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
